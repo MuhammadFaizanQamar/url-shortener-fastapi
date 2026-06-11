@@ -33,12 +33,21 @@ Coming soon
 ## Request & Response Examples
 
 **Shorten a URL:**
+```json
+POST /shorten
+{
+    "original_url": "https://www.google.com"
+}
+
+Response:
+{
+    "id": 1,
+    "original_url": "https://www.google.com",
+    "short_code": "r59o555",
+    "clicks": 0,
+    "created_at": "2026-06-10T12:23:34"
+}
+```
 
 ## Screenshots
-
-### Frontend UI
-![Frontend](screenshots/frontend.png)
-
-### API Documentation
-![API Docs](screenshots/docs.png)
-```json 
+````
