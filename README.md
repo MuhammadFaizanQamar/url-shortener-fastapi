@@ -33,4 +33,12 @@ Coming soon
 ## Request & Response Examples
 
 **Shorten a URL:**
+
+## Screenshots
+
+### Frontend UI
+![Frontend](screenshots/frontend.png)
+
+### API Documentation
+![API Docs](screenshots/docs.png)
 ```json 
